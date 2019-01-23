@@ -1,0 +1,2 @@
+To detect outlier genes, the idea was to create a rank of species distances (mean of all their orthologs to Legionella) and then compare this distribution to the distribution of the same ranked list of every protein. The comparison was done with a Kolmogorov-Smirnov test. The results can be viewed per protein by selection from the drop-down menu. Since the distribution of distances seems very random and the means for the species have a high variance, almost all of the KS tests show a significant deviation from the species-mean ranking.
+
